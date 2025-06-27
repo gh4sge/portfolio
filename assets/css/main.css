@@ -2326,3 +2326,10 @@ input, select, textarea {
     object-position: center;
   }
 }
+@media screen and (max-width: 768px) {
+  #two {
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+}
+
