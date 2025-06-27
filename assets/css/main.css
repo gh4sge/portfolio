@@ -2310,3 +2310,19 @@ input, select, textarea {
 			}
 
 		}
+@media screen and (max-width: 768px) {
+  .split.style1 {
+    flex-direction: column !important;
+  }
+
+  .split.style1 > * {
+    width: 100% !important;
+  }
+
+  .image img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}
