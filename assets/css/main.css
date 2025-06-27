@@ -2345,4 +2345,19 @@ input, select, textarea {
     padding: 1em !important;
   }
 }
+@media screen and (max-width: 768px) {
+  #intro, #one, #two {
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  #intro .image img,
+  #one .image img,
+  #two .image img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}
 
